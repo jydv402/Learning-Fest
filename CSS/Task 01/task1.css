@@ -1,0 +1,12 @@
+body {
+    background-color: aquamarine;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+}
+
+.paragraph {
+    font: caption;
+}
