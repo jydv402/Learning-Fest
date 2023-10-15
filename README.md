@@ -1,5 +1,5 @@
 # Learning Fest
-- This repo hosts the HTML and CSS files that was made as part of studying HTML on the WEB-DEVELOPMENT bootcamp hosted by Gtech MuLearn.
+- This repo hosts the HTML and CSS files that was made as part of studying Web-Development from the bootcamp hosted by Gtech MuLearn.
 ## The HTML page
 - [Click here](https://jydv402.github.io/Learning-Fest/) for the HTML page
 ## The CSS page
