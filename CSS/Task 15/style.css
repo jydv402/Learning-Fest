@@ -1,0 +1,54 @@
+html {
+    zoom: 80%;
+}
+
+body {
+    background-image: url(image.png);
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 150vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: -8px;
+}
+
+hr {
+    background-color: rgba(128, 128, 128, 0.5);
+    margin-bottom: 32px;
+}
+
+label {
+    font-weight: bold;
+
+}
+
+input {
+    background-color: rgba(143, 142, 142, 0.377);
+    border-radius: 26px;
+    border: none;
+    padding: 16px;
+    width: 95%;
+    margin-bottom: 32px;
+    margin-top: 4px;
+}
+
+.main {
+    background-color: white;
+    width: 450px;
+    justify-content: center;
+    padding: 32px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+    width: 98%;
+    margin-left: 4px;
+    margin-top: 16px;
+    margin-bottom: -16px;
+}
