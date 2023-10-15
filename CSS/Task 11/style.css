@@ -1,0 +1,14 @@
+.one {
+    border: solid red;
+    padding: 24px;
+    border-radius: 26px;
+    margin-bottom: 35px;
+}
+
+.two {
+    border: solid red;
+    padding: 24px;
+    border-radius: 26px;
+    border-top-left-radius: 64px;
+    border-bottom-right-radius: 64px;
+}
