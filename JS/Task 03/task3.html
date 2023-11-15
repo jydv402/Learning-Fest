@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 3</title>
+</head>
+
+<body style="text-align: center;margin-top: 50px;">
+    <h1>EMI Calculator</h1>
+    <label for="LoamAmnt">Loan Amount: </label>
+    <input type="number" id="LoamAmnt" name="LoamAmnt" />
+    <br /><br />
+    <label for="IntrstRate">Interest Rate (%) : </label>
+    <input type="number" id="IntrstRate" name="IntrstRate" />
+    <br /><br />
+    <label for="Period">Loan Term (months) : </label>
+    <input type="number" id="Period" name="Period" />
+    <br /><br />
+    <button onclick="findEMI()">Calculate EMI</button>
+    <h3 id="result"></h3>
+</body>
+<script src="task3.js"></script>
+
+</html>
