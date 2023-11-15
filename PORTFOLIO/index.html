@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <!-- Bootstrap CSS -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffffff;
+            padding-top: 50px;
+        }
+
+        .jumbotron {
+            background-color: #0080ff;
+            color: #ffffff;
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+
+
+        /* Avatar styles */
+
+        /* Avatar styles */
+        .avatar-container {
+            overflow: hidden;
+            border-radius: 15px;
+            /* Add border-radius or adjust as needed */
+            margin-bottom: 20px;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+
+        .animated-avatar {
+            width: 250px;
+            /* Adjust the size of your avatar */
+            height: 250px;
+            /* Adjust the size of your avatar */
+            border-radius: 50%;
+            animation: bounce 8s infinite;
+            /* Increase the duration to slow down the animation */
+        }
+
+        @keyframes bounce {
+
+            0%,
+            20%,
+            50%,
+            80%,
+            100% {
+                transform: translateY(0);
+            }
+
+            40% {
+                transform: translateY(-20px);
+            }
+
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+
+        /* Social Media Links styles */
+        .social-media-links {
+            margin-top: 20px;
+        }
+
+        .social-icon {
+            font-size: 30px;
+            margin-right: 10px;
+            color: rgb(0, 0, 0);
+            /* Adjust the color as needed */
+        }
+
+        .social-icon:hover {
+            color: #007bff;
+            /* Change the color on hover as needed */
+        }
+
+        /* Additional styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('background.jpg');
+            background-size: cover;
+            /* Adjust as needed */
+            background-position: center center;
+            /* Adjust as needed */
+            background-repeat: no-repeat;
+            /* Adjust as needed */
+            padding-top: 50px;
+        }
+
+        .navbar {
+            background-color: #343a40;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: #ffffff;
+        }
+
+        .navbar-dark .navbar-toggler-icon {
+            background-color: #ffffff;
+        }
+
+        .jumbotron {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 20px 0;
+        }
+
+        /* Add more styles as needed */
+    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Jayadev B S</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h1 class="display-4">Jyadev B S</h1>
+            <p class="lead">Front End Developer</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About Me</h2>
+                <p>
+                    I am a tech enthusiast with a passion for programming and development.Passionate towards front end
+                    development with expertise in HTML, CSS, and JavaScript. Apart from
+                    frontend web development,I also have experience with frontend app development using the Flutter
+                    framework. I am dedicatedtowards expanding my knowledge day by day and believe that every day is an
+                    adventure.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h2>Key Points</h2>
+                <ul>
+                    <li><strong>Passionate Developer:</strong> Enthusiastic about frontend development and design,
+                        always
+                        seeking new ways to improve my knowledge and apply my skills to build awesome projects.</li>
+                    <li><strong>User-Centric Approach:</strong> Focus on creating digital experiences that prioritize
+                        user needs and satisfaction.</li>
+                    <li><strong>Continuous Learning:</strong> Stay updated with the latest technologies and trends in
+                        web development.</li>
+                    <li><strong>Technical Skills:</strong> Experienced in using HTML, CSS, Bootstrap and JavaScript for
+                        frontend development.</li>
+                    <li><strong>Problem Solver:</strong> Enjoy tackling challenges and finding innovative solutions to
+                        complex problems.</li>
+                    <li><strong>Aesthetic Sensibility:</strong> Blend functionality with aesthetics to create visually
+                        appealing websites.</li>
+                    <li><strong>Curiosity and Exploration:</strong> Eager to explore emerging technologies and implement
+                        them in projects.</li>
+                    <li><strong>Community Engagement:</strong> Participate in community events and believe in the power
+                        of collaborative learning.</li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="container">
+        <h2>Portfolio</h2>
+
+        <!-- Project 1 -->
+        <div class="card">
+            <img src="https://pixelmechanics.com.sg/wp-content/uploads/2019/06/html5-logo-for-web-development.png"
+                class="card-img-top" alt="Project 1">
+            <div class="card-body">
+                <h5 class="card-title">Project 1</h5>
+                <p class="card-text">
+                    This was the project with which I started my journey in frontend web development. I have done a
+                    series of projects using HTML, CSS, Bootstrap, and JavaScript. You can find more details and the
+                    project <a href="https://github.com/jydv402/Learning-Fest">here.</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="card">
+            <img src="https://miro.medium.com/max/1400/1*U2doBF3eEw_mHMbeJBpuQg.jpeg" class="card-img-top"
+                alt="Project 2">
+            <div class="card-body">
+                <h5 class="card-title">Project 2</h5>
+                <p class="card-text">
+                    During my initial foray into frontend development, I embarked on a learning path with the Flutter
+                    framework. These
+                    initial projects served as a foundational exploration, illuminating the expansive possibilities
+                    inherent in Flutter's
+                    capabilities. They provided invaluable insights, fostering a comprehensive understanding of
+                    Flutter's functionalities.One notable project, in particular, marked the genesis of this journey. It
+                    served as a pivotal
+                    learning experience,
+                    allowing me to apply acquired knowledge and insights to subsequent endeavors. You can explore the
+                    details of this
+                    project <a href="https://github.com/jydv402/Colours.play">here.</a>
+                    These foundational projects
+                    represent crucial milestones in my programming odyssey, holding an
+                    enduring significance as
+                    they laid the groundwork for my ongoing growth and proficiency in the field.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+    <!-- Avatar Section -->
+
+    <section id="avatar" class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 text-center">
+                <div class="avatar-container">
+                    <img src="https://media.licdn.com/dms/image/D5603AQFXwId-OJge_g/profile-displayphoto-shrink_800_800/0/1695047260849?e=1705536000&v=beta&t=4k0oZGcysOCY8hlOM2CD5dQG-9LAi5ejjeWX6rIDwgg"
+                        alt="Pic" class="img-fluid animated-avatar">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Social Media</h2>
+
+        <!-- Social Media Links -->
+        <div class="social-media-links">
+            <a href="https://twitter.com/im_jd_here" target="_blank" class="social-icon"><i
+                    class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/jydv402/" target="_blank" class="social-icon"><i
+                    class="fab fa-instagram"></i></a>
+            <!-- Add more social media links as needed -->
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script>
+        // Add your custom JavaScript code here
+        $(document).ready(function () {
+            // Add any jQuery functionality you may need
+
+            // Submit form using AJAX to avoid page reload
+            $("#contactForm").submit(function (event) {
+                event.preventDefault();
+                $.ajax({
+                    type: "POST",
+                    url: "send_email.php",
+                    data: $(this).serialize(),
+                    success: function (response) {
+                        // Handle the response if needed
+                        console.log(response);
+                    }
+                });
+            });
+        });
+
+        // Add your custom JavaScript functions here
+        function submitForm() {
+            // Add functionality to handle form submission
+        }
+    </script>
+
+</body>
+
+</html>
