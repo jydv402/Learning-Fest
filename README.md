@@ -6,3 +6,5 @@
 - [Click here](https://jydv402.github.io/Learning-Fest/CSS/Task%2015/task15.html) for the HTML with CSS page
 ## The BOOTSTRAP task
 - [Cick here](https://jydv402.github.io/Learning-Fest/BOOTSTRAP/Task%206/task6.html) for the HTML page built by adding CSS and BOOTSTRAP elements
+## The JS task
+- [Cick here](https://jydv402.github.io/Learning-Fest/JS/Task%2005/task5.html) for the HTML page built for JS task.
